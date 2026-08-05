@@ -56,7 +56,7 @@ export default function ExpedienteDetalle() {
     estado_nuevo: h.estado_nuevo as EstadoExpediente,
     fecha: h.fecha_cambio,
     usuario: 'Usuario',
-    observaciones: undefined
+    observaciones: h.observaciones
   }));
 
   const handlePagoRegistrado = () => {

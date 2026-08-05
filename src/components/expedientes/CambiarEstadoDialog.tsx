@@ -60,8 +60,8 @@ export function CambiarEstadoDialog({
         id: expedienteId,
         data: {
           estado_nuevo: data.estado_nuevo,
-          fecha_cambio: format(data.fecha_cambio, 'yyyy-MM-dd'),
-          observaciones: data.observaciones
+          fecha_cambio: format(data.fecha_cambio, 'yyyy-MM-dd HH:mm:ss'),
+          observaciones: data.observaciones || ''
         }
       });
       
